@@ -36,3 +36,4 @@ master/Add-gettext-support-for-.policy-files.patch
 05_revert-admin-identities-unix-group-wheel.patch
 06_systemd-service.patch
 10_build-against-libsystemd.patch
+0039-Add-Turkish-translation.patch
