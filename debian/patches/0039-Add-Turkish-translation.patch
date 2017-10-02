@@ -1,0 +1,87 @@
+From: =?utf-8?q?Yunusemre_=C5=9Eent=C3=BCrk?=
+ <yunusemre.senturk@pardus.org.tr>
+Date: Mon, 2 Oct 2017 10:31:18 +0300
+Subject: Add Turkish translation
+
+---
+ po/tr.po | 71 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 71 insertions(+)
+ create mode 100644 po/tr.po
+
+diff --git a/po/tr.po b/po/tr.po
+new file mode 100644
+index 0000000..9ed39d8
+--- /dev/null
++++ b/po/tr.po
+@@ -0,0 +1,71 @@
++# Danish translations for PolicyKit.
++# Copyright (C) 2009 Red Hat, Inc.
++# This file is distributed under the same license as the PolicyKit package.
++# David Zeuthen <davidz@redhat.com>, 2009.
++# Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>, 2017.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: DeviceKit-disks\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2011-03-03 13:03-0500\n"
++"PO-Revision-Date: 2017-10-02 10:26+0300\n"
++"Last-Translator: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>\n"
++"Language-Team: Türkçe <>\n"
++"Language: da\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"Plural-Forms: nplurals=2; plural=(n != 1);\n"
++"X-Generator: Gtranslator 2.91.7\n"
++
++#: ../actions/org.freedesktop.policykit.policy.in.h:1
++msgid "Authentication is required to configure lock down policy"
++msgstr "Kilitleme politikasını yapılandırmak için yetkilendirme gerekli"
++
++#: ../actions/org.freedesktop.policykit.policy.in.h:2
++msgid "Authentication is required to run a program as another user"
++msgstr ""
++"Bir programı başka bir kullanıcı gibi çalıştırmak için yetkilendirme gerekli"
++
++#: ../actions/org.freedesktop.policykit.policy.in.h:3
++msgid "Configure lock down for an action"
++msgstr "Bir eylem için kısıtlamayı yapılandır"
++
++#: ../actions/org.freedesktop.policykit.policy.in.h:4
++msgid "Run programs as another user"
++msgstr "Programı başka bir kullanıcı olarak çalıştır"
++
++#: ../src/examples/org.freedesktop.policykit.examples.pkexec.policy.in.h:1
++msgid ""
++"Authentication is required to run the PolicyKit example program Frobnicate "
++"(user=$(user), program=$(program), command_line=$(command_line))"
++msgstr ""
++"PolicyKit örnek programı Frobnicate'yi çalıştırmak için yetkilendirme "
++"gerekiyor (kullanıcı=$(user), program=$(program), komut_satırı="
++"$(command_line))"
++
++#: ../src/examples/org.freedesktop.policykit.examples.pkexec.policy.in.h:2
++msgid "Run the PolicyKit example program Frobnicate"
++msgstr "PolicyKit örnek programı Frobnicate'i çalıştır"
++
++#. Translators: message shown when trying to run a program as root. Do not
++#. * translate the $(program) fragment - it will be expanded to the path
++#. * of the program e.g.  /bin/bash.
++#.
++#: ../src/programs/pkexec.c:666
++msgid "Authentication is needed to run `$(program)' as the super user"
++msgstr ""
++"`$(program)' programının süper kullanıcı olarak yürütülmesi için kimlik "
++"doğrulaması gerekmekte"
++
++#. Translators: message shown when trying to run a program as another user.
++#. * Do not translate the $(program) or $(user) fragments - the former will
++#. * be expanded to the path of the program e.g. "/bin/bash" and the latter
++#. * to the user e.g. "John Doe (johndoe)" or "johndoe".
++#.
++#: ../src/programs/pkexec.c:676
++msgid "Authentication is needed to run `$(program)' as user $(user)"
++msgstr ""
++"'$(program)' programını $(user) kullanıcısı olarak çalıştırmak için "
++"yetkilendirme gerekli"

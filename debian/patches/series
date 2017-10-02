@@ -37,3 +37,4 @@ master/Add-gettext-support-for-.policy-files.patch
 06_systemd-service.patch
 10_build-against-libsystemd.patch
 CVE-2018-19788.patch
+0039-Add-Turkish-translation.patch
