@@ -1,3 +1,10 @@
+policykit-1 (0.105-18pardus1) unstable; urgency=medium
+
+  * Add .drone.yml
+  * Add patches, Add Turkish translations
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 02 Oct 2017 10:34:11 +0300
+
 policykit-1 (0.105-18) unstable; urgency=medium
 
   * Team upload.
