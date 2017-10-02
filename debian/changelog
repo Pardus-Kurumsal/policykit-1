@@ -4,6 +4,13 @@ policykit-1 (0.105-18+deb9u1) stretch-security; urgency=medium
 
  -- Moritz Mühlenhoff <jmm@debian.org>  Thu, 06 Dec 2018 18:38:04 +0100
 
+policykit-1 (0.105-18pardus1) unstable; urgency=medium
+
+  * Add .drone.yml
+  * Add patches, Add Turkish translations
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 02 Oct 2017 10:34:11 +0300
+
 policykit-1 (0.105-18) unstable; urgency=medium
 
   * Team upload.
