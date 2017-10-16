@@ -4,6 +4,12 @@ policykit-1 (0.105-18+deb9u1) stretch-security; urgency=medium
 
  -- Moritz Mühlenhoff <jmm@debian.org>  Thu, 06 Dec 2018 18:38:04 +0100
 
+policykit-1 (0.105-18pardus2) unstable; urgency=medium
+
+  * Fuking vendor changes
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 16 Oct 2017 09:56:27 +0300
+
 policykit-1 (0.105-18pardus1) unstable; urgency=medium
 
   * Add .drone.yml
