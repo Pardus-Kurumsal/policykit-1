@@ -1,3 +1,9 @@
+policykit-1 (0.105-18pardus2) unstable; urgency=medium
+
+  * Fuking vendor changes
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 16 Oct 2017 09:56:27 +0300
+
 policykit-1 (0.105-18pardus1) unstable; urgency=medium
 
   * Add .drone.yml
