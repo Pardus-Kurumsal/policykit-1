@@ -1,3 +1,9 @@
+policykit-1 (0.105-18+deb9u1) stretch-security; urgency=medium
+
+  * CVE-2018-19788 (Closes: #915332)
+
+ -- Moritz Mühlenhoff <jmm@debian.org>  Thu, 06 Dec 2018 18:38:04 +0100
+
 policykit-1 (0.105-18) unstable; urgency=medium
 
   * Team upload.
