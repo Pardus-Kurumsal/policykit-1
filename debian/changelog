@@ -1,3 +1,17 @@
+policykit-1 (0.105-18pardus3) guvenlik; urgency=medium
+
+  [ Yunusemre Şentürk ]
+  * Add .drone.yml
+  * Add patches
+  * Update changelog for 0.105-18pardus1 release
+  * Fuking vendor changes
+  * Update changelog for 0.105-18pardus2 release
+
+  [ Cihangir Akturk ]
+  * ci: change artifact location to /packages
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 10 Dec 2018 12:55:19 +0300
+
 policykit-1 (0.105-18+deb9u1) stretch-security; urgency=medium
 
   * CVE-2018-19788 (Closes: #915332)
